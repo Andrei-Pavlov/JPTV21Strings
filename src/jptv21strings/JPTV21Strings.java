@@ -18,19 +18,27 @@ public class JPTV21Strings {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("----Работа со строками ----");
+//        System.out.println("----Работа со строками ----");
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.print("Введите строку: ");
+//        String str = scanner.nextLine();
+//        char[] charArrayBegin = str.toCharArray();
+//        char[] charArrayEnd = new char[charArrayBegin.length];
+//        for(int i = 0; i< charArrayBegin.length; i++){
+//            charArrayEnd[i] = charArrayBegin[charArrayBegin.length-1 - i];
+//        }
+//        System.out.println("perevernul - "+Arrays.toString(charArrayEnd));
+//        String reversString =  new String(charArrayEnd);
+//        System.out.println("Revers string: "+reversString);
+//        System.out.println("---- использование string build  ----");
+//        System.out.println("Введите длинный текст - ");
+//        str = scanner.nextLine();
+//        StringBuilder sb = new StringBuilder(str);
+//        System.out.println(sb.reverse());
+        System.out.println("---- задание ----");
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите строку: ");
-        String str = scanner.nextLine();
-        char[] charArrayBegin = str.toCharArray();
-        char[] charArrayEnd = new char[charArrayBegin.length];
-        for(int i = 0; i< charArrayBegin.length; i++){
-            charArrayEnd[i] = charArrayBegin[charArrayBegin.length-1 - i];
-        }
-        System.out.println("perevernul - "+Arrays.toString(charArrayEnd));
-        String reversString =  new String(charArrayEnd);
-        System.out.println("Revers string: "+reversString);
-        System.out.println("Теперь я могу работать дома над этим проэктом");
+        System.out.println("Введите предложение - ");
+        String str scanner.nextLine();
     }
     
 }
